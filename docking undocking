@@ -1,0 +1,19 @@
+
+function setup() {
+  createCanvas(800,400);
+  createSprite(400, 200, 50, 50);
+}
+
+function draw() {
+  background(255,255,255);  
+  drawSprites();
+}
+
+function preload() {
+  bg = loadImage("images/iss.png");
+  sleep = loadAnimation("images/sleep.png");
+  gym = loadAnimation("images/gym21.png","images/gym22.png");
+  eat = loadAnimation("link urls");
+  drink = loadAnimation("link urls");
+  move = loadAnimation("link urls");
+}
